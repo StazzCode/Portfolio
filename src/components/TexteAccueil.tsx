@@ -1,4 +1,3 @@
-import React from 'react'
 import './TexteAccueil.css'
 
 export const TexteAccueil = () => {
