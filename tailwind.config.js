@@ -13,6 +13,8 @@ export default {
         'darkgradient2': '#041320',
         'lighttext': '#D9E8F7',
         'darktext': '#081726',
+        'lightheader': '#D5DEEF',
+        'darkheader': '#284661',
       }
     },
   },
