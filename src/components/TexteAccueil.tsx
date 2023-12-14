@@ -1,9 +1,24 @@
+import { useState, useEffect} from 'react';
 import './styles.css'
 
 export const TexteAccueil = () => {
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); // Assuming 768px is the breakpoint for mobile screens
+
+    useEffect(() => {
+        const handleResize = () => {
+          setIsMobile(window.innerWidth <= 768);
+        };
+    
+        window.addEventListener('resize', handleResize);
+    
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, []);
+
   return (
     <div className='grid grid-cols-1 lg:grid-cols-12'>
-        <div className='col-span-10 place-self-center'>
+        <div className={`col-span-10 place-self-center ${isMobile ? '' : 'm-20'}`}>
             <section className='font-face-rm m-28'>
                 <h1 className='text-darktext font-bold text-3xl lg:text-5xl mb-5'>Bonjour, Je m’appelle Kellian Mirey</h1>
                 <p className='text-darktext text-lg lg:text-2xl'>
