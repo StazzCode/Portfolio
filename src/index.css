@@ -4,5 +4,7 @@
 
 @font-face {
     font-family: 'Roboto-Mono';
-    src: local('Roboto-Mono'), url(./fonts/RobotoMono-VariableFont_wght.ttf) format('truetype')
+    src: local('Roboto-Mono'), url(./fonts/RobotoMono-VariableFont_wght.ttf) format('truetype');
+    font-family: 'Roboto';
+    src: local('Roboto'), url(./fonts/Roboto/Roboto-Regular.ttf) format(truetype);
   }
