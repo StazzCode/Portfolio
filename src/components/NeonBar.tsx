@@ -1,28 +1,28 @@
 export const NeonBar = () => {
     const redbackblurbarStyle = {
         borderBottom: '7.5px solid #480A0A',
-        filter: 'blur(15px)',
+        filter: 'blur(5px)',
     };
     const redbackbarStyle = {
         borderBottom: '3.75px solid #480A0A',
     };
     const yellowbackblurbarStyle = {
         borderBottom: '7.5px solid #EA3E03',
-        filter: 'blur(15px)',
+        filter: 'blur(5px)',
     };
     const yellowbackbarStyle = {
         borderBottom: '3.75px solid #EA3E03',
     };
     const greenbackblurbarStyle = {
         borderBottom: '7.5px solid #1FA045',
-        filter: 'blur(15px)',
+        filter: 'blur(5px)',
     };
     const greenbackbarStyle = {
         borderBottom: '3.75px solid #1FA045',
     };
     const bluebackblurbarStyle = {
         borderBottom: '7.5px solid #233EEF',
-        filter: 'blur(15px)',
+        filter: 'blur(5px)',
     };
     const bluebackbarStyle = {
         borderBottom: '3.75px solid #233EEF',
