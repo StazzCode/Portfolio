@@ -17,7 +17,7 @@ export const Réalisations = () => {
             <h2 className="p-4 font-extrabold text-3xl">/ Réalisations</h2>
             <div className="border border-red-500 h-1/2 relative flex flex-col justify-center">
                 <BgNeonBar/>
-                <div className="carousel carousel-center space-x-96 h-full overflow-y-hidden absolute max-w-full px-96">
+                <div className="carousel carousel-center space-x-80 h-full overflow-y-hidden absolute max-w-full px-96">
                     <div className="carousel-item w-full cursor-pointer relative rounded-xl overflow-hidden shadow-md" onClick={goToProjetAgile}>
                         <img src="src/assets/img/ProjetAgile.jpg" className="h-full w-full rounded-xl"></img>
                         <div className="absolute text-lighttext w-auto blur-on-hover rounded-xl">
