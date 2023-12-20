@@ -2,6 +2,29 @@
     font-family: "Roboto";
 }
 
-div,li {
-    border: 1px solid none;
+.carousel-item .blur-on-hover {
+    height: 115%;
+    transition: backdrop-filter 0.3s ease-in-out;
+    backdrop-filter: blur(5px) brightness(0.5);
+    top: 85%;
+    transition: all .3s cubic-bezier(.6,.4,0,1);
+}
+
+.carousel-item:hover .blur-on-hover{
+    top: -15%;
+}
+
+.description {
+    height: 100%;
+    width: 100%;
+    transition: backdrop-filter 0.3s ease-in-out;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0);
+    top: 100%;
+    transition: all .3s cubic-bezier(.6,.4,0,1);
+    text-shadow: -1px -1px 0 #D9E8F7, 1px -1px 0 #D9E8F7, -1px 1px 0 #D9E8F7, 1px 1px 0 #D9E8F7;
+}
+
+li:hover .description {
+    top : 0;
 }
