@@ -6,11 +6,11 @@ import { RightArrow } from "./iconsComponents/RightArrow"
 export const CentresDintérêts = () => {
   return (
     <>
-      <div className="flex flex-col justify-start space-y-24 h-screen border border-blue-500">
+      <div className="flex flex-col justify-start space-y-24 h-screen">
         <h2 className="p-4 font-extrabold text-3xl">/ Centres d'intérêt</h2>
-        <div className=" flex flex-col lg:flex-row justify-around h-3/5 border border-red-500">
+        <div className=" flex flex-col lg:flex-row justify-around h-3/5">
           <div className="card bg-lightheader h-full w-1/4 shadow-md overflow-hidden relative">
-            <div className="carousel h-full w-full absolute carou text-lighttext border border-yellow-500">
+            <div className="carousel h-full w-full absolute carou text-lighttext">
               <div className="carousel-item w-full relative" id="1">
                 <h2 className="absolute bottom-0 flex justify-center m-2 text-xl font-extrabold backdrop-blur-md rounded-2xl">Alright <h4 className="ml-2 mt-1.5 text-sm">by Kendrick Lamar</h4></h2>
                 <img src="src/assets/img/ToPimpAButterfly.jpeg" className="w-full"/>
@@ -36,7 +36,7 @@ export const CentresDintérêts = () => {
                 </a>
               </div>
             </div>
-            <div className="card-body mt-8 pt-24 justify-center border border-yellow-500">
+            <div className="card-body mt-8 pt-24 justify-center">
               <h2 className="card-title">
                 Musique
                 <MusicIcon/>
@@ -55,7 +55,7 @@ export const CentresDintérêts = () => {
           </div>
 
           <div className="card bg-lightheader h-full w-1/4 shadow-md overflow-hidden relative">
-            <div className="carousel h-full w-full absolute carou text-lighttext border border-yellow-500">
+            <div className="carousel h-full w-full absolute carou text-lighttext">
               <div className="carousel-item w-full relative" id="1">
                 <h2 className="absolute bottom-0 flex justify-center m-2 text-xl font-extrabold backdrop-blur-md rounded-2xl">Minecraft <h4 className="ml-2 mt-1.5 text-sm">(2011)</h4></h2>
                 <img src="src/assets/img/Minecraft.jpeg" className="w-full"/>
@@ -81,7 +81,7 @@ export const CentresDintérêts = () => {
                 </a>
               </div>
             </div>
-            <div className="card-body mt-8 pt-24 justify-center border border-yellow-500">
+            <div className="card-body mt-8 pt-24 justify-center">
               <h2 className="card-title">
                 Jeux Vidéo
                 <JeuxVideoIcon/>
@@ -100,7 +100,7 @@ export const CentresDintérêts = () => {
           </div>
 
           <div className="card bg-lightheader h-full w-1/4 shadow-md overflow-hidden relative">
-            <div className="carousel h-full w-full absolute carou text-lighttext border border-yellow-500">
+            <div className="carousel h-full w-full absolute carou text-lighttext">
               <div className="carousel-item w-full relative" id="1">
                 <h2 className="absolute bottom-0 flex justify-center m-2 text-xl font-extrabold backdrop-blur-md rounded-2xl">Breaking Bad <h4 className="ml-2 mt-1.5 text-sm">(2008)</h4></h2>
                 <img src="src/assets/img/BreakingBad.jpeg" className="w-full"/>
@@ -126,7 +126,7 @@ export const CentresDintérêts = () => {
                 </a>
               </div>
             </div>
-            <div className="card-body mt-8 pt-24 justify-center border border-yellow-500">
+            <div className="card-body mt-8 pt-24 justify-center">
               <h2 className="card-title">
                 Séries
                 <MusicIcon/>

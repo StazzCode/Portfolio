@@ -5,9 +5,9 @@ import { StudyIcon } from "./iconsComponents/StudyIcon"
 export const Formations = () => {
   return (
     <>
-        <div className="flex flex-col justify-start space-y-48 h-screen border border-blue-500">
+        <div className="flex flex-col justify-start space-y-48 h-screen">
             <h2 className="p-4 font-extrabold text-3xl">/ Formations</h2>
-            <div className=" flex flex-col lg:flex-row justify-around h-2/5 border border-red-500">
+            <div className=" flex flex-col lg:flex-row justify-around h-2/5">
                 <div className="flex flex-col justify-start flex-grow mx-12 w-1/3 h-full card rounded-box bg-slate-100 overflow-hidden text-xl font-bold shadow-md">
                     <div className="bg-lightheader font-extrabold text-4xl flex flex-col justify-center h-16 shadow">
                         <h4 className="m-4 ml-8">2022</h4>

@@ -2,20 +2,26 @@ import { BgNeonBar } from "./BgNeonBar";
 import { UpArrow } from "./iconsComponents/UpArrow";
 import "./styles.css"
 export const Réalisations = () => {
+    const openLinkInNewTab = (url : string) => {
+        window.open(url, '_blank');
+    };
+
     const goToBDD = () => {
-        window.location.href = 'https://github.com/StazzCode/Rendu_SAE_BDD';
+        openLinkInNewTab('https://github.com/StazzCode/Rendu_SAE_BDD');
     };
+
     const goToProjetAgile = () => {
-        window.location.href = 'https://gitlab.univ-lille.fr/2023-projet-agile-de-rentree/groupe-11';
+        openLinkInNewTab('https://gitlab.univ-lille.fr/2023-projet-agile-de-rentree/groupe-11');
     };
+
     const goToPortfolio = () => {
-        window.location.href = 'https://github.com/StazzCode/Portfolio';
+        openLinkInNewTab('https://github.com/StazzCode/Portfolio');
     };
   return (
     <>
-        <div className="flex flex-col justify-start space-y-32 h-screen border border-blue-500">
+        <div className="flex flex-col justify-start space-y-32 h-screen">
             <h2 className="p-4 font-extrabold text-3xl">/ Réalisations</h2>
-            <div className="border border-red-500 h-1/2 relative flex flex-col justify-center">
+            <div className="h-1/2 relative flex flex-col justify-center">
                 <BgNeonBar/>
                 <div className="carousel carousel-center space-x-80 h-full overflow-y-hidden absolute max-w-full px-96">
                     <div className="carousel-item w-full cursor-pointer relative rounded-xl overflow-hidden shadow-md" onClick={goToProjetAgile}>

@@ -17,9 +17,9 @@ export const TexteAccueil = () => {
       }, []);
 
   return (
-    <div className='grid grid-cols-1 lg:grid-cols-12 pt-16'>
-        <div className={`col-span-10 place-self-center ${isMobile ? 'm-18' : 'm-18'}`}>
-            <section className='font-face-rm m-28'>
+    <div className='grid grid-cols-1 lg:grid-cols-12 h-screen'>
+        <div className={`col-span-10 ${isMobile ? 'm-18' : 'm-18'}`}>
+            <section className='font-face-rm mt-48 m-28'>
                 <h1 className='text-darktext font-bold text-3xl lg:text-5xl mb-5'>Bonjour, Je m’appelle Kellian Mirey</h1>
                 <p className='text-darktext text-lg lg:text-2xl'>
                 Je suis actuellement étudiant en BUT Informatique 

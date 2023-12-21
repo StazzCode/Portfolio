@@ -9,9 +9,9 @@ import { TailwindIcon } from "./iconsComponents/TailwindIcon"
 export const Compétences = () => {
   return (
     <>
-        <div className="flex flex-col justify-start space-y-8 h-screen border border-blue-500">
+        <div className="flex flex-col justify-start space-y-8 h-screen">
             <h2 className="p-4 font-extrabold text-3xl">/ Compétences</h2>
-            <div className="border border-red-500">
+            <div className="">
                 <ul className="flex flex-row justify-center space-x-16">
                     <ul className="flex flex-col justify-center space-y-16">
                         <li className="bg-lightheader flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
