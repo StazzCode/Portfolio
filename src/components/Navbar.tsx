@@ -28,24 +28,24 @@ export const Navbar = () => {
                     <nav className={`font-face-rm text-xl ${isMenuOpen || !isMobile ? 'mx-7' : 'mx-7'}`}>
                     <ul className={`flex lg:justify-around items-center space-x-2 lg:space-x-4 h-20 ${isMenuOpen ? 'flex justify-between' : 'flex justify-between'}`}>
                             <li className=''>
-                                <a className=' text-xl lg:text-3xl'>Kellian Mirey</a>
+                                <a href='#nav' className=' text-xl lg:text-3xl'>Kellian Mirey</a>
                             </li>
                             <ul className={`lg:flex space-x-4 text-xl lg:text-4l ${isMobile ? 'hidden lg:flex' : 'hidden lg:flex'}`}>
                                 <li>
-                                    <a>/Formations</a>
+                                    <a href='#f'>/Formations</a>
                                 </li>
                                 <li>
-                                    <a>/Compétences</a>
+                                    <a href='#c'>/Compétences</a>
                                 </li>
                                 <li>
-                                    <a>/Réalisations</a>
+                                    <a href='#r'>/Réalisations</a>
                                 </li>
                                 <li>
-                                    <a>/Centres d'intérêt</a>
+                                    <a href='#ci' className=' scroll-smooth'>/Centres d'intérêt</a>
                                 </li>
                             </ul>
                             <li className={`${isMobile ? 'hidden lg:flex' : 'hidden lg:flex'}`}>
-                                <a className=' justify-end text-xl lg:text-3xl'>Contact</a>
+                                <a href='#footer' className=' justify-end text-xl lg:text-3xl'>Contact</a>
                             </li>
                             {/* Hamburger menu button */}
                             <li className={`lg:hidden ${isMobile ? 'block' : 'hidden'}`}>

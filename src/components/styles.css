@@ -38,3 +38,7 @@ li:hover .description {
 .carou:hover {
     bottom : 0%;
 }
+
+html {
+    scroll-behavior: smooth;
+  }

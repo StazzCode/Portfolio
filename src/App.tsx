@@ -11,21 +11,33 @@ import { TexteAccueil } from './components/TexteAccueil'
 function App() {
   return (
     <main className='flex min-w-full min-h-screen flex-col bg-gradient-to-r from-lightgradient1 from-5% to-lightgradient2 to-100% container mx-auto text-darktext'>
-      <Navbar/>
+      <div id='nav'>
+        <Navbar/>
+      </div>
       <NeonBar/>
       <br/>
       <br/>
       <TexteAccueil/>
       <br/>
-      <Formations/>
+      <div id='f'>
+        <Formations/>
+      </div>
       <br/>
-      <Compétences/>
+      <div id='c'>
+        <Compétences/>
+      </div>
       <br/>
-      <Réalisations/>
+      <div id='r'>
+        <Réalisations/>
+      </div>
       <br/>
-      <CentresDintérêts/>
+      <div id="ci">
+        <CentresDintérêts/>
+      </div>
       <br/>
-      <Footer/>
+      <div id='footer'>
+        <Footer/>
+      </div>
     </main>
   )
 }

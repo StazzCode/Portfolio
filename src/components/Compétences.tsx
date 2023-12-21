@@ -32,7 +32,7 @@ export const Compétences = () => {
                         </li>
                         <li className="bg-lightheader flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
                             <div className="flex justify-center">
-                                <img className="w-24 h-24" src="https://stazzcode.github.io/Portfolio/src/assets/img/503px-Jakarta_ee_logo_stacked.png"/>
+                                <img className="w-24 h-24" src="src/assets/img/503px-Jakarta_ee_logo_stacked.png"/>
                             </div>
                             <div className="description absolute text-darktext rounded-2xl flex flex-col justify-center">
                                 <p className="m-2 text-sm text-center">Plateforme pour le développement d'applications d'entreprise en Java. Elle fournit des spécifications et des API.</p>
