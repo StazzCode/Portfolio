@@ -31,16 +31,16 @@ export const Navbar = () => {
                                 <a className=' text-xl lg:text-3xl'>Kellian Mirey</a>
                             </li>
                             <ul className={`lg:flex space-x-4 text-xl lg:text-4l ${isMobile ? 'hidden lg:flex' : 'hidden lg:flex'}`}>
-                                <li className=''>
+                                <li>
                                     <a>/Formations</a>
                                 </li>
-                                <li className=''>
+                                <li>
                                     <a>/Compétences</a>
                                 </li>
-                                <li className=''>
+                                <li>
                                     <a>/Réalisations</a>
                                 </li>
-                                <li className=''>
+                                <li>
                                     <a>/Centres d'intérêt</a>
                                 </li>
                             </ul>
