@@ -25,7 +25,7 @@ export const Réalisations = () => {
                 <BgNeonBar/>
                 <div className="carousel carousel-center space-x-80 h-full overflow-y-hidden absolute max-w-full px-96">
                     <div id="1" className="carousel-item w-full cursor-pointer relative rounded-xl overflow-hidden shadow-md" onClick={goToProjetAgile}>
-                        <img src="../..src/assets/img/ProjetAgile.jpg" className="h-full w-full rounded-xl"></img>
+                        <img src="../../src/assets/img/ProjetAgile.jpg" className="h-full w-full rounded-xl"></img>
                         <div className="absolute text-lighttext w-auto blur-on-hover rounded-xl">
                             <UpArrow/>
                             <h5 className="text-3xl font-bold mt-7 m-2">Projet Agile</h5>
