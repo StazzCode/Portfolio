@@ -28,3 +28,13 @@
 li:hover .description {
     top : 0;
 }
+
+.carou {
+    bottom: 80%;
+    transition: backdrop-filter 0.3s ease-in-out;
+    transition: all .3s cubic-bezier(.6,.4,0,1);
+}
+
+.carou:hover {
+    bottom : 0%;
+}
