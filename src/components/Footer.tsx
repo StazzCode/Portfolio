@@ -19,10 +19,10 @@ export const Footer = () => {
         </nav>
         <nav>
           <header className="footer-title">Pages</header> 
-          <a className="link link-hover">Formations</a>
-          <a className="link link-hover">Compétences</a>
-          <a className="link link-hover">Réalisations</a>
-          <a className="link link-hover">Centres d'intérêts</a>
+          <a href="#f" className="link link-hover">Formations</a>
+          <a href='#c' className="link link-hover">Compétences</a>
+          <a href="#r" className="link link-hover">Réalisations</a>
+          <a href="#ci" className="link link-hover">Centres d'intérêts</a>
         </nav>  
         <nav>
           <header className="footer-title">Liens</header> 
