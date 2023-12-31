@@ -20,7 +20,7 @@ export const CentresDintérêts = () => {
               </div>
               <div className="carousel-item w-full relative" id="2">
               <h2 className="absolute bottom-0 flex justify-center m-2 text-xl font-extrabold backdrop-blur-md rounded-2xl">Music Sound Better With You <h4 className="ml-2 mt-1.5 text-sm">by Stardust</h4></h2>
-                <img src="src/assets/img/MusicSoundBetterWithYou.jpeg" className="w-full"/>
+                <img src="assets/img/MusicSoundBetterWithYou.jpeg" className="w-full"/>
                 <a href="#1" className="absolute h-16 w-16 top-1/2 left-5 bg-white/50 backdrop-blur-sm rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out">
                   <LeftArrow/>
                 </a>
@@ -30,7 +30,7 @@ export const CentresDintérêts = () => {
               </div>
               <div className="carousel-item w-full relative" id="3">
               <h2 className="absolute bottom-0 flex justify-center m-2 text-xl font-extrabold backdrop-blur-md rounded-2xl">Deadly Clout <h4 className="ml-2 mt-1.5 text-sm">by The Caracal Project</h4></h2>
-                <img src="src/assets/img/DeadlyClout.jpeg" className="w-full"/>
+                <img src="assets/img/DeadlyClout.jpeg" className="w-full"/>
                 <a href="#2" className="absolute h-16 w-16 top-1/2 left-5 bg-white/50 backdrop-blur-sm rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out">
                   <LeftArrow/>
                 </a>
@@ -58,14 +58,14 @@ export const CentresDintérêts = () => {
             <div className="carousel h-full w-full absolute carou text-lighttext">
               <div className="carousel-item w-full relative" id="1">
                 <h2 className="absolute bottom-0 flex justify-center m-2 text-xl font-extrabold backdrop-blur-md rounded-2xl">Minecraft <h4 className="ml-2 mt-1.5 text-sm">(2011)</h4></h2>
-                <img src="src/assets/img/Minecraft.jpeg" className="w-full"/>
+                <img src="assets/img/Minecraft.jpeg" className="w-full"/>
                 <a href="#2" className="absolute h-16 w-16 top-1/2 right-5 bg-white/50 backdrop-blur-sm rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out">
                   <RightArrow/>
                 </a>
               </div>
               <div className="carousel-item w-full relative" id="2">
               <h2 className="absolute bottom-0 flex justify-center m-2 text-xl font-extrabold backdrop-blur-md rounded-2xl">Cyberpunk 2077 <h4 className="ml-2 mt-1.5 text-sm">(2020)</h4></h2>
-                <img src="src/assets/img/Cyberpunk.jpeg" className="w-full"/>
+                <img src="assets/img/Cyberpunk.jpeg" className="w-full"/>
                 <a href="#1" className="absolute h-16 w-16 top-1/2 left-5 bg-white/50 backdrop-blur-sm rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out">
                   <LeftArrow/>
                 </a>
@@ -75,7 +75,7 @@ export const CentresDintérêts = () => {
               </div>
               <div className="carousel-item w-full relative" id="3">
               <h2 className="absolute bottom-0 flex justify-center m-2 text-xl font-extrabold backdrop-blur-md rounded-2xl">Lethal Company <h4 className="ml-2 mt-1.5 text-sm">(2023)</h4></h2>
-                <img src="src/assets/img/LethalCompany.jpeg" className="w-full"/>
+                <img src="assets/img/LethalCompany.jpeg" className="w-full"/>
                 <a href="#2" className="absolute h-16 w-16 top-1/2 left-5 bg-white/50 backdrop-blur-sm rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out">
                   <LeftArrow/>
                 </a>
@@ -103,14 +103,14 @@ export const CentresDintérêts = () => {
             <div className="carousel h-full w-full absolute carou text-lighttext">
               <div className="carousel-item w-full relative" id="1">
                 <h2 className="absolute bottom-0 flex justify-center m-2 text-xl font-extrabold backdrop-blur-md rounded-2xl">Breaking Bad <h4 className="ml-2 mt-1.5 text-sm">(2008)</h4></h2>
-                <img src="src/assets/img/BreakingBad.jpeg" className="w-full"/>
+                <img src="assets/img/BreakingBad.jpeg" className="w-full"/>
                 <a href="#2" className="absolute h-16 w-16 top-1/2 right-5 bg-white/50 backdrop-blur-sm rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out">
                   <RightArrow/>
                 </a>
               </div>
               <div className="carousel-item w-full relative" id="2">
               <h2 className="absolute bottom-0 flex justify-center m-2 text-xl font-extrabold backdrop-blur-md rounded-2xl">Mr Robot <h4 className="ml-2 mt-1.5 text-sm">(2015)</h4></h2>
-                <img src="src/assets/img/MrRobot.jpeg" className="w-full"/>
+                <img src="assets/img/MrRobot.jpeg" className="w-full"/>
                 <a href="#1" className="absolute h-16 w-16 top-1/2 left-5 bg-white/50 backdrop-blur-sm rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out">
                   <LeftArrow/>
                 </a>
@@ -120,7 +120,7 @@ export const CentresDintérêts = () => {
               </div>
               <div className="carousel-item w-full relative" id="3">
               <h2 className="absolute bottom-0 flex justify-center m-2 text-xl font-extrabold backdrop-blur-md rounded-2xl">Brooklyn Nine-Nine <h4 className="ml-2 mt-1.5 text-sm">(2013)</h4></h2>
-                <img src="src/assets/img/B99.jpeg" className="w-full"/>
+                <img src="assets/img/B99.jpeg" className="w-full"/>
                 <a href="#2" className="absolute h-16 w-16 top-1/2 left-5 bg-white/50 backdrop-blur-sm rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out">
                   <LeftArrow/>
                 </a>
