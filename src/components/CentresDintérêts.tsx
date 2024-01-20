@@ -13,7 +13,7 @@ export const CentresDintérêts = () => {
             <div className="carousel h-full w-full absolute carou text-lighttext">
               <div className="carousel-item w-full relative" id="1">
                 <h2 className="absolute bottom-0 flex justify-center m-2 text-xl font-extrabold backdrop-blur-md rounded-2xl">Alright <h4 className="ml-2 mt-1.5 text-sm">by Kendrick Lamar</h4></h2>
-                <img src="src/assets/img/ToPimpAButterfly.jpeg" className="w-full"/>
+                <img src="assets/img/ToPimpAButterfly.jpeg" className="w-full"/>
                 <a href="#2" className="absolute h-16 w-16 top-1/2 right-5 bg-white/50 backdrop-blur-sm rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out">
                   <RightArrow/>
                 </a>
