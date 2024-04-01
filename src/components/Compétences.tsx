@@ -14,7 +14,7 @@ export const Compétences = () => {
             <div className="">
                 <ul className="flex flex-row justify-center space-x-16">
                     <ul className="flex flex-col justify-center space-y-16">
-                        <li className="bg-lightheader flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
+                        <li className="box flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
                             <div className="flex justify-center">
                                 <JavaIcon/>
                             </div>
@@ -22,7 +22,7 @@ export const Compétences = () => {
                                 <p className="m-2 text-sm text-center">Langage de programmation polyvalent et orienté objet.</p>
                             </div>
                         </li>
-                        <li className="bg-lightheader flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
+                        <li className="box flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
                             <div className="flex justify-center">
                                 <CIcon/>
                             </div>
@@ -30,7 +30,7 @@ export const Compétences = () => {
                                 <p className="m-2 text-sm text-center">Langage de programmation impératif et de bas niveau, largement utilisé pour le développement système et d'applications performantes.</p>
                             </div>
                         </li>
-                        <li className="bg-lightheader flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
+                        <li className="box flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
                             <div className="flex justify-center">
                                 <img className="w-24 h-24" src="assets/img/503px-Jakarta_ee_logo_stacked.png"/>
                             </div>
@@ -40,7 +40,7 @@ export const Compétences = () => {
                         </li>
                     </ul>
                     <ul className="flex flex-col justify-center space-y-16">
-                        <li className="bg-lightheader flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
+                        <li className="box flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
                             <div className="flex justify-center">
                                 <ReactIcon/>
                             </div>
@@ -48,7 +48,7 @@ export const Compétences = () => {
                                 <p className="m-2 text-sm text-center"> Bibliothèque JavaScript développée par Facebook pour la construction d'interfaces utilisateur interactives. Elle facilite la création de composants réutilisables.</p>
                             </div>
                         </li>
-                        <li className="bg-lightheader flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
+                        <li className="box flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
                             <div className="flex justify-center">
                                 <HtmlIcon/>
                             </div>
@@ -56,7 +56,7 @@ export const Compétences = () => {
                                 <p className="m-2 text-sm text-center">Langage de balisage utilisé pour structurer le contenu des pages web. Il définit la structure de base des documents web en utilisant des balises.</p>
                             </div>
                         </li>
-                        <li className="bg-lightheader flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
+                        <li className="box flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
                             <div className="flex justify-center">
                                 <CssIcon/>
                             </div>
@@ -66,7 +66,7 @@ export const Compétences = () => {
                         </li>
                     </ul>
                     <ul className="flex flex-col justify-center space-y-16">
-                        <li className="bg-lightheader flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
+                        <li className="box flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
                             <div className="flex justify-center">
                                 <TailwindIcon/>
                             </div>
@@ -74,7 +74,7 @@ export const Compétences = () => {
                                 <p className="m-2 text-sm text-center">Framework CSS utilitaire qui facilite la création de styles en utilisant des classes prédéfinies.</p>
                             </div>
                         </li>
-                        <li className="bg-lightheader flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
+                        <li className="box flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
                             <div className="flex justify-center">
                                 <BashIcon/>
                             </div>
@@ -82,7 +82,7 @@ export const Compétences = () => {
                                 <p className="m-2 text-sm text-center">Interpréteur de commandes utilisé principalement dans les systèmes d'exploitation de type Unix.</p>
                             </div>
                         </li>
-                        <li className="bg-lightheader flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
+                        <li className="box flex flex-col justify-center h-48 w-48 rounded-2xl shadow-md relative overflow-hidden">
                             <div className="flex justify-center">
                                 <img className="w-24 h-24" src="assets/img/icons8-database-96.png"/>
                             </div>

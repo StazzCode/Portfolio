@@ -7,9 +7,9 @@ export const Formations = () => {
     <>
         <div className="flex flex-col justify-start space-y-48 h-screen">
             <h2 className="p-4 font-extrabold text-3xl">/ Formations</h2>
-            <div className=" flex flex-col lg:flex-row justify-around h-2/5">
-                <div className="flex flex-col justify-start flex-grow mx-12 w-1/3 h-full card rounded-box bg-slate-100 overflow-hidden text-xl font-bold shadow-md">
-                    <div className="bg-lightheader font-extrabold text-4xl flex flex-col justify-center h-16 shadow">
+            <div className="flex flex-col lg:flex-row justify-around h-2/5">
+                <div className="boxBody bg-slate-800 flex flex-col justify-start flex-grow mx-12 w-1/3 h-full card rounded-box overflow-hidden text-xl font-bold shadow-md">
+                    <div className="boxHeader font-extrabold text-4xl flex flex-col justify-center h-16 shadow">
                         <h4 className="m-4 ml-8">2022</h4>
                         <span className="absolute mb-1 ml-4">/</span>
                     </div>
@@ -19,8 +19,8 @@ export const Formations = () => {
                         <li className="flex flex-row items-center space-x-2"><GlobeIcon/><a href="https://lycee-gustave-eiffel.fr">Lycée Polyvalent Gustave Eiffel, Armentières</a><img src="assets/img/Logo-Lycee.jpg" alt="lyceelogo" className="w-1/6"/></li>
                     </ul>
                 </div>  
-                <div className="flex flex-col justify-start flex-grow mx-12 w-1/3 h-full card rounded-box bg-slate-100 overflow-hidden text-xl font-bold shadow-md">
-                    <div className="bg-lightheader font-extrabold text-4xl flex flex-col justify-center h-16 shadow">
+                <div className="boxBody flex flex-col justify-start flex-grow mx-12 w-1/3 h-full card rounded-box overflow-hidden text-xl font-bold shadow-md">
+                    <div className="boxHeader font-extrabold text-4xl flex flex-col justify-center h-16 shadow">
                         <h4 className="m-4 ml-8">2023</h4>
                         <span className="absolute mb-1 ml-4">/</span>
                     </div>

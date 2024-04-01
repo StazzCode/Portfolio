@@ -20,8 +20,8 @@ export const TexteAccueil = () => {
     <div className='grid grid-cols-1 lg:grid-cols-12 h-screen'>
         <div className={`col-span-10 ${isMobile ? 'm-18' : 'm-18'}`}>
             <section className='font-face-rm mt-48 m-28'>
-                <h1 className='text-darktext font-bold text-3xl lg:text-5xl mb-5'>Bonjour, Je m’appelle Kellian Mirey</h1>
-                <p className='text-darktext text-lg lg:text-2xl'>
+                <h1 className='font-bold text-3xl lg:text-5xl mb-5'>Bonjour, Je m’appelle Kellian Mirey</h1>
+                <p className='text-lg lg:text-2xl'>
                 Je suis actuellement étudiant en BUT Informatique 
                 dans le but de devenir développeur Fullstack. 
                 Je me suis passionné pour l’informatique depuis très jeune 

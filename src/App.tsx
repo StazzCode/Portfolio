@@ -10,7 +10,7 @@ import { TexteAccueil } from './components/TexteAccueil'
 
 function App() {
   return (
-    <main className='flex min-w-full min-h-screen flex-col bg-gradient-to-r from-lightgradient1 from-5% to-lightgradient2 to-100% container mx-auto text-darktext'>
+    <main className='body flex min-w-full min-h-screen flex-col container mx-auto'>
       <div id='nav'>
         <Navbar/>
       </div>

@@ -7,7 +7,7 @@ import { PhoneIcon } from "./iconsComponents/PhoneIcon"
 export const Footer = () => {
   return (
     <>
-      <footer className="footer p-10 bg-lightheader text-darktext">
+      <footer className="footer p-10">
         <nav>
           <header className="footer-title">Contact</header> 
           <div className="flex justify-center space-x-2 items-center">
