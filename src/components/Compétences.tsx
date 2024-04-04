@@ -36,7 +36,7 @@ export const Compétences = () => {
                             <div className="flex justify-center">
                                 <img className="w-24 h-24" src="assets/img/503px-Jakarta_ee_logo_stacked.png"/>
                             </div>
-                            <p className="flex justify-center m-2 bottom-6 font-bold">JEE</p>
+                            <p className="flex justify-center m-2 bottom-6 font-bold">Jakarta JEE</p>
                             <div className="description absolute text-darktext rounded-2xl flex flex-col justify-center">
                                 <p className="m-2 text-sm text-center">Plateforme pour le développement d'applications d'entreprise en Java. Elle fournit des spécifications et des API.</p>
                             </div>
