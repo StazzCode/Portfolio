@@ -28,7 +28,7 @@ export const TexteAccueil = () => {
                 par les jeux vidéo et le fait de comprendre la plupart des 
                 logiciels qui m’accompagnent quotidiennement. 
                 Mon objectif en tant que développeur est de développer 
-                des logiciels efficaces et satisfaisants pour ses utilisateurs (dont moi).
+                des logiciels efficaces et satisfaisants pour ses utilisateurs.
                 </p>
             </section>
         </div>
