@@ -26,6 +26,10 @@ export const Réalisations = () => {
         openLinkInNewTab('https://github.com/StazzCode/PizzaLand');
     }
 
+    const goToJSAE = () => {
+        openLinkInNewTab('https://github.com/StazzCode/JSAE');
+    }
+
   return (
     <>
         <div className="flex flex-col justify-start space-y-32 h-screen">
@@ -150,7 +154,7 @@ export const Réalisations = () => {
                             </div>
                         </div>
                     </div>
-                    <div id="slide6" className="carousel-item w-full cursor-pointer relative rounded-xl overflow-hidden shadow-md">
+                    <div id="slide6" className="carousel-item w-full cursor-pointer relative rounded-xl overflow-hidden shadow-md" onClick={goToJSAE}>
                         <img src="assets/img/DOOM_JSAE.png" className="h-full w-full rounded-xl"></img>
                         <div className="absolute text-lighttext w-full blur-on-hover rounded-xl">
                             <UpArrow/>
