@@ -26,10 +26,6 @@ export const Réalisations = () => {
         openLinkInNewTab('https://github.com/StazzCode/PizzaLand');
     }
 
-    const goToJSAE = () => {
-        openLinkInNewTab('https://github.com/StazzCode/JSAE');
-    }
-
   return (
     <>
         <div className="flex flex-col justify-start space-y-32 h-screen">
@@ -151,30 +147,6 @@ export const Réalisations = () => {
                                 <div className='badge badge-accent m-1'>Développer une API REST</div>
                                 <div className='badge badge-accent m-1'>Manipuler des bases de données</div>
                                 <div className='badge badge-accent m-1'>Programmation JEE</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="slide6" className="carousel-item w-full cursor-pointer relative rounded-xl overflow-hidden shadow-md" onClick={goToJSAE}>
-                        <img src="assets/img/DOOM_JSAE.png" className="h-full w-full rounded-xl"></img>
-                        <div className="absolute text-lighttext w-full blur-on-hover rounded-xl">
-                            <UpArrow/>
-                            <h5 className="text-3xl font-bold mt-7 m-2">Projet Jeu Javascript</h5>
-                            <p className="mt-3 mx-2 text-justify">
-                            Le but de ce projet est de développer un jeu vidéo de type "shoot'em up" en JavaScript. Réalisé en équipe de trois personnes, nous avons mis en œuvre la méthode du TDD (Test Driven Development) pour créer la partie back-end du jeu. Notre jeu s'inspire de Doom, est en 2D, permet des déplacements sur deux axes, et offre au joueur la possibilité de tirer à 360° autour de lui. L'objectif du jeu est de survivre aux vagues de monstres.
-                            </p>
-                            <div className="font-semibold  m-4 ">
-                                <p>Compétences acquises : </p>
-                                <div className='badge badge-info m-1'>Node.js</div>
-                                <div className='badge badge-info m-1'>Javascript</div>
-                                <div className='badge badge-info m-1'>HTML / CSS</div>
-                                <div className='badge badge-info m-1'>Socket.io</div>
-                                <div className='badge badge-info m-1'>Git</div>
-                            </div>
-                            <div className="font-semibold  m-4 ">
-                                <p>Savoir-faire : </p>
-                                <div className='badge badge-accent m-1'>Développer un jeu</div>
-                                <div className='badge badge-accent m-1'>Réaliser une application web</div>
-                                <div className='badge badge-accent m-1'>Programmation en Javascript</div>
                             </div>
                         </div>
                     </div>
