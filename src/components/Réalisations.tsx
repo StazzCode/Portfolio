@@ -158,7 +158,6 @@ export const Réalisations = () => {
                         <a href="#slide3" className="btn btn-xs btn-circle border-slate-200 bg-slate-200 hover:border-slate-500 hover:bg-slate-500"></a> 
                         <a href="#slide4" className="btn btn-xs btn-circle border-slate-200 bg-slate-200 hover:border-slate-500 hover:bg-slate-500"></a>
                         <a href="#slide5" className="btn btn-xs btn-circle border-slate-200 bg-slate-200 hover:border-slate-500 hover:bg-slate-500"></a>
-                        <a href="#slide6" className="btn btn-xs btn-circle border-slate-200 bg-slate-200 hover:border-slate-500 hover:bg-slate-500"></a>
                     </div>
                 </div>
             </div>
