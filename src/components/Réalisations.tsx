@@ -115,7 +115,7 @@ export const Réalisations = () => {
               {projects.map((_, index) => (
                 <button
                   key={index}
-                  onClick={() => handleNavigationClick(index)}
+                  onClick={() => handleNavigationClick(index + 1)}
                   className={`btn btn-xs btn-circle ${
                     activeSlide === index
                       ? "bg-slate-500 border-slate-500"

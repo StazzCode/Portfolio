@@ -41,7 +41,7 @@ export const Navbar = () => {
                                     <a href='#r'>Réalisations</a>
                                 </li>
                                 <li>
-                                    <a href='#ci' className=' scroll-smooth'>/Centres d'intérêt</a>
+                                    <a href='#ci' className=' scroll-smooth'>Centres d'intérêt</a>
                                 </li>
                             </ul>
                             <li className={`${isMobile ? 'hidden lg:flex' : 'hidden lg:flex'}`}>
