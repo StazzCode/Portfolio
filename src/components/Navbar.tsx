@@ -32,13 +32,13 @@ export const Navbar = () => {
                             </li>
                             <ul className={`lg:flex space-x-4 text-xl lg:text-4l ${isMobile ? 'hidden lg:flex' : 'hidden lg:flex'}`}>
                                 <li>
-                                    <a href='#f'>/Formations</a>
+                                    <a href='#f'>Formations</a>
                                 </li>
                                 <li>
-                                    <a href='#c'>/Compétences</a>
+                                    <a href='#c'>Compétences</a>
                                 </li>
                                 <li>
-                                    <a href='#r'>/Réalisations</a>
+                                    <a href='#r'>Réalisations</a>
                                 </li>
                                 <li>
                                     <a href='#ci' className=' scroll-smooth'>/Centres d'intérêt</a>
