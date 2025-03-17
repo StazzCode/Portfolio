@@ -88,7 +88,7 @@ export const CentresDintérêts = () => {
                 <JeuxVideoIcon/>
               </h2>
               <p>
-                Les jeux vidéo sont une de mes passion depuis tout petit, voici trois excellent jeux que je conseille :
+              Les jeux vidéo sont l'une de mes passions depuis tout petit. Voici trois excellents jeux que je conseille :
                 <br />
                 <br />
                 <ul className="ml-6 list-disc">
@@ -133,7 +133,7 @@ export const CentresDintérêts = () => {
                 <SerieIcon/>
               </h2>
               <p>
-                Depuis l'arrivée des plateforme de streaming, je consomme pas mal de séries sur Netflix, Prime et autre. Donc je vous propose trois séries dont mes deux préférées et une série coup de coeur :
+              Depuis l'arrivée des plateformes de streaming, je consomme pas mal de séries sur Netflix, Prime et autres. Je vous propose donc trois séries : mes deux préférées et une série coup de cœur.
                 <br />
                 <br />
                 <ul className="ml-6 list-disc">

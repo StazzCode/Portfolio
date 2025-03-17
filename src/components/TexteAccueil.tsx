@@ -22,13 +22,7 @@ export const TexteAccueil = () => {
             <section className='font-face-rm mt-48 m-28'>
                 <h1 className='font-bold text-3xl lg:text-5xl mb-5'>Bonjour, Je m’appelle Kellian Mirey</h1>
                 <p className='text-lg lg:text-2xl text-justify'>
-                Je suis actuellement étudiant en BUT Informatique 
-                dans le but de devenir développeur Fullstack. 
-                Je me suis passionné pour l’informatique depuis très jeune 
-                par les jeux vidéo et le fait de comprendre la plupart des 
-                logiciels qui m’accompagnent quotidiennement. 
-                Mon objectif en tant que développeur est de développer 
-                des logiciels efficaces et satisfaisants pour ses utilisateurs.
+                Je suis actuellement étudiant en BUT Informatique dans le but de devenir développeur Front-End. Je me suis passionné pour l’informatique depuis très jeune, notamment grâce aux jeux vidéo et à la volonté de comprendre le fonctionnement des logiciels qui m’accompagnent au quotidien. Mon objectif en tant que développeur est de créer des logiciels efficaces et satisfaisants pour leurs utilisateurs.
                 </p>
             </section>
         </div>

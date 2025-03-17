@@ -39,7 +39,7 @@ export const Réalisations = () => {
                             <UpArrow/>
                             <h5 className="text-3xl font-bold mt-7 m-2">Projet Agile</h5>
                             <p className="mt-3 mx-2 text-justify">
-                            Pizza Del Papa est un logiciel ludopédagogique se jouant sur terminal, dont le but est de réaliser les pizzas des clients. Les commandes sont aléatoires parmi une liste prédéfinie de pizzas, et le joueur gagne des points en les préparant. Nous sommes quatre étudiants à avoir réalisé ce projet en tant qu'équipe pluridisciplinaire. Pour ce projet, nous avons appris à appliquer la méthode agile et à suivre le guide SCRUM.
+                            Pizza Del Papa est un logiciel ludopédagogique qui se joue sur terminal. Le but est de réaliser les pizzas commandées par les clients. Les commandes sont générées aléatoirement parmi une liste prédéfinie de pizzas, et le joueur gagne des points en les préparant correctement. Nous sommes quatre étudiants à avoir réalisé ce projet en tant qu'équipe pluridisciplinaire. Pour ce projet, nous avons appris à appliquer la méthode agile et à suivre le cadre SCRUM.
                             </p>                                
                             <div className="font-semibold  m-4 ">
                                 <p>Compétences acquises : </p>
@@ -62,7 +62,7 @@ export const Réalisations = () => {
                             <UpArrow/>
                             <h5 className="text-3xl font-bold mt-7 m-2">Projet Portfolio</h5>
                             <p className="mt-3 mx-2 text-justify">
-                            Ce portfolio est avant tout un projet réalisé dans le cadre de mon parcours, visant à regrouper mes compétences, mes projets et à me présenter en tant qu'étudiant/développeur. Cependant, ce portfolio représente pour moi un projet à part entière, m'offrant l'opportunité de développer mes compétences en front-end. En effet, il me permet d'explorer de nouvelles technologies, frameworks et bibliothèques telles que React et Tailwind CSS, tout en démontrant mes capacités dans ce domaine.
+                            Ce portfolio est avant tout un projet réalisé dans le cadre de mon parcours, visant à regrouper mes compétences, mes projets et à me présenter en tant qu'étudiant et développeur. Cependant, ce portfolio représente pour moi un projet à part entière, m'offrant l'opportunité de développer mes compétences en front-end. En effet, il me permet d'explorer de nouvelles technologies, frameworks et bibliothèques, telles que React et Tailwind CSS, tout en démontrant mes capacités dans ce domaine.
                             </p>
                             <div className="font-semibold  m-4 ">
                                 <p>Compétences acquises : </p>
@@ -85,7 +85,7 @@ export const Réalisations = () => {
                             <UpArrow/>
                             <h5 className="text-3xl font-bold mt-7 m-2">Projet BDD</h5>
                             <p className="mt-3 mx-2 text-justify">
-                            Le projet exploite les données olympiques via une base de données PostgreSQL. Les données contenues dans des fichiers au format CSV sont importées dans une table "import", puis ventilées en tables distinctes pour séparer les différentes données (athlètes, pays, éditions, événements, résultats). L'analyse est réalisée à l'aide de requêtes SQL, avec une focalisation sur les performances des athlètes américains en athlétisme. Un rapport personnalisé est généré concernant les médaillés d'or et l'évolution des performances des athlètes. Ce projet a démontré l'efficacité des bases de données pour mettre en évidence les performances olympiques de manière claire et structurée.
+                            Le projet exploite les données olympiques via une base de données PostgreSQL. Les données, contenues dans des fichiers au format CSV, sont d'abord importées dans une table "import", puis ventilées en tables distinctes pour organiser les différentes catégories d'informations (athlètes, pays, éditions, événements, résultats). L'analyse est réalisée à l'aide de requêtes SQL, en se focalisant particulièrement sur les performances des athlètes américains en athlétisme. Un rapport personnalisé est généré, mettant en avant les médaillés d'or et l'évolution des performances des athlètes. Ce projet a démontré l'efficacité des bases de données pour mettre en évidence les performances olympiques de manière claire et structurée.
                             </p>
                             <div className="font-semibold  m-4 ">
                                 <p>Compétences acquises : </p>
@@ -107,7 +107,7 @@ export const Réalisations = () => {
                             <UpArrow/>
                             <h5 className="text-3xl font-bold mt-7 m-2">Projet Chasse au Monstre</h5>
                             <p className="mt-3 mx-2 text-justify">
-                            La Chasse au Monstre est un jeu où deux personnages s'affrontent : un monstre et un chasseur. Le monstre se trouve dans un labyrinthe et doit trouver la sortie tout en restant en vie. Le chasseur, quant à lui, se situe à l'extérieur du labyrinthe et tire à l'intérieur pour éliminer le monstre. Le jeu se termine lorsque le monstre atteint la sortie ou lorsque le chasseur parvient à le tuer. Le jeu est développé en Java et utilise la bibliothèque JavaFX.
+                            La Chasse au Monstre est un jeu où deux personnages s'affrontent : un monstre et un chasseur. Le monstre se trouve dans un labyrinthe et doit trouver la sortie tout en évitant d'être éliminé. Le chasseur, quant à lui, se situe à l'extérieur du labyrinthe et tire à l'intérieur pour tuer le monstre. Le jeu se termine lorsque le monstre atteint la sortie ou lorsque le chasseur parvient à l'éliminer. Le jeu est développé en Java et utilise la bibliothèque JavaFX.
                             </p>
                             <div className="font-semibold  m-4 ">
                                 <p>Compétences acquises : </p>
@@ -131,7 +131,7 @@ export const Réalisations = () => {
                             <UpArrow/>
                             <h5 className="text-3xl font-bold mt-7 m-2">Projet API REST PizzaLand</h5>
                             <p className="mt-3 mx-2 text-justify">
-                            Le projet consistait à réaliser une API REST simulant la gestion des ingrédients, des pizzas et des commandes d’une pizzeria. Réalisé en binôme avec un camarade, nous avons développé une API REST en Java et JEE, qui est exécutée au sein d’un serveur Tomcat. L’API comprend notamment un système d’authentification qui restreint l'accès aux utilisateurs autorisés pour effectuer des requêtes de mise à jour (POST, PUT, PATCH et DELETE).
+                            Le projet consistait à réaliser une API REST simulant la gestion des ingrédients, des pizzas et des commandes d’une pizzeria. Réalisé en binôme avec un camarade, nous avons développé une API REST en Java et JEE, exécutée au sein d’un serveur Tomcat. L’API comprend notamment un système d’authentification qui restreint l'accès aux utilisateurs autorisés pour effectuer des requêtes de modification (POST, PUT, PATCH et DELETE).
                             </p>
                             <div className="font-semibold  m-4 ">
                                 <p>Compétences acquises : </p>
