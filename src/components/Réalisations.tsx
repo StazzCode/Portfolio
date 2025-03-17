@@ -75,27 +75,27 @@ export const Réalisations = () => {
       title: "Projet API REST PizzaLand",
       description:
         "Le projet consistait à réaliser une API REST simulant la gestion des ingrédients, des pizzas et des commandes d’une pizzeria. Réalisé en binôme avec un camarade, nous avons développé une API REST en Java et JEE, exécutée au sein d’un serveur Tomcat. L’API comprend notamment un système d’authentification qui restreint l'accès aux utilisateurs autorisés pour effectuer des requêtes de modification (POST, PUT, PATCH et DELETE).",
-      skills: ["REST", "JEE", "Bruno", "Tomcat", "Git", "Postgresql"],
+      skills: ["REST", "Jakarta EE", "Bruno", "Tomcat", "Git", "Postgresql"],
       knowHow: [
         "Développer une API REST",
         "Manipuler des bases de données",
-        "Programmation JEE",
+        "Programmation Jakarta EE",
       ],
       onClick: () => openLinkInNewTab("https://github.com/StazzCode/PizzaLand"),
     },
     {
         id: "slide5",
-        imageSrc: "assets/img/Capture_Pizzaland.jpg",
-        title: "Projet API REST PizzaLand",
+        imageSrc: "assets/img/SAE_WEB_ChatApp.png",
+        title: "Application de messagerie en ligne",
         description:
-          "Le projet consistait à réaliser une API REST simulant la gestion des ingrédients, des pizzas et des commandes d’une pizzeria. Réalisé en binôme avec un camarade, nous avons développé une API REST en Java et JEE, exécutée au sein d’un serveur Tomcat. L’API comprend notamment un système d’authentification qui restreint l'accès aux utilisateurs autorisés pour effectuer des requêtes de modification (POST, PUT, PATCH et DELETE).",
-        skills: ["REST", "JEE", "Bruno", "Tomcat", "Git", "Postgresql"],
+          "Le projet consistait à réaliser une application de messagerie en ligne programmée en Java et Jakarta EE, basée sur le modèle MVC. Réalisée en binôme avec un camarade, nous avons développé une application en Java et JEE, exécutée au sein d’un serveur Tomcat. L’application comprend notamment un système d’authentification. Les différents objets tels que les messages, fils de discussion et utilisateurs sont stockés dans une base de données Postgresql.",
+        skills: ["Tomcat", "Tailwind CSS", "Jakarta EE", "Postgresql", "Modèle MVC"],
         knowHow: [
-          "Développer une API REST",
+          "Développer une application web",
           "Manipuler des bases de données",
-          "Programmation JEE",
+          "Programmation Jakarta EE",
         ],
-        onClick: () => openLinkInNewTab("https://github.com/StazzCode/PizzaLand"),
+        onClick: () => openLinkInNewTab("https://github.com/StazzCode/SAE_WEB_ChatApp"),
       },
   ];
 
