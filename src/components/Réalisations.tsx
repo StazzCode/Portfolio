@@ -97,6 +97,20 @@ export const Réalisations = () => {
         ],
         onClick: () => openLinkInNewTab("https://github.com/StazzCode/SAE_WEB_ChatApp"),
       },
+      {
+        id: "slide6",
+        imageSrc: "assets/img/Capture_Agario.png",
+        title: "Clone Agar.io en Javascript", 
+        description:
+          "Dans le cadre de ce projet, réalisé en trinôme, nous avons développé un clone simplifié du jeu Agar.io en utilisant JavaScript, Socket.IO et Express.js. L’application repose sur une architecture client/serveur, permettant une interaction en temps réel entre les joueurs connectés. Ce projet nous a permis de renforcer nos compétences en programmation réseau, gestion des sockets et développement de jeux en temps réel. L’utilisation de JavaScript à la fois côté client et serveur a également été une expérience enrichissante pour une meilleure maîtrise de l’écosystème Node.js.",
+        skills: ["Javascript", "Client/Serveur", "Node.js", "Express.js", "Socket.io"],
+        knowHow: [
+          "Programmation réseau avec Socket.IO",
+          "Architecture client/serveur (Express.js/Node.js)",
+          "Jeu dynamique avec Canvas",
+        ],
+        onClick: () => openLinkInNewTab("https://github.com/StazzCode/Agar.io_Clone"),
+      },
   ];
 
   // Navigation click handler
